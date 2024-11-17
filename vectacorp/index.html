@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vecta Corporation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+
+    <style>
+        body {
+            padding-top: 80px;/* Adjust this value based on the height of your navbar */
+        }
+        nav {
+            height:60px;
+            margin: 20px 20px 5px;
+        }
+        img[src="images/logo.png"] {
+            margin-left: 30px;
+        }
+        #navbarSupportedContent ul {
+            margin-right: 30px;
+        }
+        #welcome {
+            height: auto;
+        }
+        #describ h4 {
+          color:#ff5e00ed;
+        }
+        #describ p:first-of-type {
+          color:#ff5e00ed;
+        }
+        nav {
+          width:inherit;
+        }
+
+    </style>
+    
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="Vecta Corp logo"></a>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        About Us
+                    </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Overview</a></li>
+                            <li><a class="dropdown-item" href="#">Company History</a></li>
+                            <li><a class="dropdown-item" href="#">Management</a></li>
+                            <li><a class="dropdown-item" href="#">Careers</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="solution.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Solutions
+                    </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="solution.html">vProspect</a></li>
+                            <li><a class="dropdown-item" href="solution.html">vConvert</a></li>
+                            <li><a class="dropdown-item" href="solution.html">vRetain</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#">Support</a></li>
+                <li class="nav-item"><a class="nav-link" href="#">contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12" id="carousePart">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="images/header1.jpg" class="d-block w-100" alt="header1">
+                        <div class="carousel-caption d-none d-md-block" id="describ">
+                          <h4>Let's meeting and figure out them.</h4>
+                          <p>High efficient meeting makes things easier.</p>
+                          <p><a class="btn btn-primary btn-sm" href="#" role="button">&#128077 More info</a></p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/header2.jpg" class="d-block w-100" alt="header2">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h4>Make the Deal</h4>
+                          <p>You will close every deal with a handshake.</p>
+                          <p><a class="btn btn-primary btn-sm" href="#" role="button">&#128077 More info</a></p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/header3.jpg" class="d-block w-100" alt="header3">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h4>Meet our team.</h4>
+                          <p>Meet our team and join them.</p>
+                          <p><a class="btn btn-primary btn-sm" href="#" role="button">&#128077 More info</a></p>
+                        </div>   
+                      </div>
+                      <div class="carousel-item">
+                        <img src="images/header4.jpg" class="d-block w-100" alt="header4">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h4>Calculate.</h4>
+                          <p>Calculate with excellent tools.</p>
+                          <p><a class="btn btn-primary btn-sm" href="#" role="button">&#128077 More info</a></p>
+                        </div>
+                      </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                    </div>
+                </div>
+            </div>
+        <div>
+
+        <div class="row">
+            <div class="col-md-4" id="welcome">
+                <h3>Welcome</h3>
+                <p>With innovative approaches and advanced methodologies, Vecta Corporation provides scalable business solutions to help companies achieve success through revenue increase, cost management, and user satisfaction. Our approach stems from the three most important business growth aspects: helping companies reach prospects, assist in converting prospects to customers, and assist in retaining those customers. This is accomplished through our interactive solutions and expertise in providing a memorable and positive user experience.</p>
+            </div>
+            <div class="col-md-4">
+                <h3>Our Solutions</h3>
+                <nav>
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                      <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true"><em><strong>vProspect 2.0</strong></em></button>
+                      <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false"><em><strong>vConvert 2.0</strong></em></button>
+                      <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false"><em><strong>vRetain 1.0</strong></em></button>
+                    </div>
+                  </nav>
+                  <div class="tab-content" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">Define and research your target audience, define your strategy to reach that audience and present a strong and memorable brand to that audience.</div>
+                    <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">Create a highly user-friendly and easy-to-navigate information architecture that will help your prospects interact with the company on a highly interactive level.</div>
+                    <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">Build on existing customer relationships to improve productivity and maximize customer loyalty, while growing revenues.</div>
+                  </div>      
+            </div>
+
+            <div class="col-md-4">
+                <h3>Client Testimonials</h3>
+                <p class="d-inline-flex gap-1">
+                    <a class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Aaron D. Tyres
+                    </a>
+                    <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample1" aria-expanded="false" aria-controls="collapseExample">
+                        Robin Banks
+                    </button>
+                </p>
+                  <div class="collapse" id="collapseExample">
+                    <div class="card card-body" id="collapseExample">
+                        Throughout the years we have worked with Vecta Corporation, we have always been amazed at the level of dedication and professionalism that they have provided us and our WGDC products. It is this commitment that has increased both our income and exposure exponentially.
+                        <abbr title="Chief Executive Officer">CEO</abbr><br>
+                        American Rubber, Inc.
+                    </div>   
+                  </div>
+                  <div class="collapse" id="collapseExample1">
+                    <div class="card card-body" id="collapseExample">
+                        Incredible results from an incredible effort by the Vecta Corporation team! We are very pleased with the business benefits we have rceived by working with them.
+                        <abbr title="Chief Technology Officer">CTO</abbr><br>
+                        Profits Financial, LLC.
+                    </div>   
+                  </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12">
+                <p>Copyright @Copyright 2015 VectaCorporation</p>
+            </div>
+        </div>
+
+    </div>
+    
+</body>
+</html>
